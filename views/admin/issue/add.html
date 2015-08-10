@@ -1,0 +1,38 @@
+<form action="" method="post">
+	
+	<table>
+		<tr>
+			<td>title</td>
+			<td><input type="text" name="title" /></td>
+		</tr>
+
+
+		<tr>
+			<td>sub_title</td>
+			<td> <input type="text" name="sub_title" value="" /></td>
+		</tr>
+
+		<tr>
+			<td>issue_num</td>
+			<td><input type="text" name="issue_num" value="" /></td>
+		</tr>
+
+		<tr>
+			<td>publish_date</td>
+			<td><input type="text" name="publish_date" value="{{date .Current "Y-m-d"}}" /></td>
+		</tr>
+
+		<tr>
+			<td>desc</td>
+			<td><textarea rows="5" cols="20" name="desc"></textarea></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td><input type="submit" value="save"></td>
+		</tr>
+
+	</table>
+ 
+
+</form>

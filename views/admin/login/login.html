@@ -2,24 +2,35 @@
 
 <html>
 <head>
-  <title>Beego</title>
+  <title>管理员登录</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   
 </head>
 
 <body>
   <header>
-    <h1 class="logo">Welcome to Beego</h1>
+    <h1 class="logo">管理员登录</h1>
     <div class="description">
-      Beego is a simple & powerful Go web framework which is inspired by tornado and sinatra.
+       
     </div>
   </header>
+
+  <content>
+    <form action="/admin/login" method="post">
+     <input type="text" name="username">
+    <br>
+    <input type="password" name="password">
+    <br>
+    <input type="submit" value="login">     
+
+    </form>
+
+
+  </content>
+
   <footer>
     <div class="author">
-      Official website:
-      <a href="http://{{.Website}}">{{.Website}}</a> /
-      Contact me:
-      <a class="email" href="mailto:{{.Email}}">{{.Email}}</a>
+        &copy; 2015
     </div>
   </footer>
   <div class="backdrop"></div>

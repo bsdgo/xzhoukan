@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>xzhoukan{{.version}}</title>
+	<style>
+		.header ul li{float:left;list-style: none; padding-right:30px;}
+	</style>
+</head>
+<body>
+
+<div class="header">
+	<ul>
+		<li><a href="/admin/logout">logout</a></li>
+		<li><a href="/">index</a></li>
+		<li><a href="/admin/issue/add">add issue</a></li>
+		<li><a href="/">issue List</a></li>
+		<div style="clear:both"></div>
+	</ul>
+</div>
+
+<div class="main">
+ 	{{.LayoutContent}}
+</div>
+
+
+ 
+<div class="footer">
+ 
+	Copyright &copy; 2015. All Rights Reserved. 
+</div>
+</body>
+</html>
